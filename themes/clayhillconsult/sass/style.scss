@@ -1,0 +1,996 @@
+$bodybg: #fdfdfd;
+$colorLightblack: #262626;
+$colorWhite:#ffffff;
+$colorHeaders: #444444;
+$fontStyle: Raleway,sans-serif;
+$fontSizeSliderTitle:32px;
+$fontSizeSliderBody: 18px;
+$fontSizeHeaders: 30px;
+$fonSizeSmallerthanheaders: 25px;
+$fontSizeParagraph: 15px;
+$fontSizeNav: 15px;
+$fontSizeGridTitle: 20px;
+$primaryColor:#1abc9c;
+
+
+body{
+	background: $bodybg;
+  margin-top: 0 !important;
+  z-index: 1;
+}
+.navbar-nav{
+	display: inline;
+}
+.navbar-default{
+  box-shadow: none;
+  border-radius:none;
+    .navbar-nav li a {
+      color: $colorWhite;
+      font-family: $fontStyle;
+      font-size: $fontSizeNav;
+      font-weight: 600 !important;
+      letter-spacing: 1px;
+      text-shadow: none;
+      padding-top: 32px;
+    }
+    .navbar-brand{
+      font-family: $fontStyle;
+      font-size: 20px;
+      font-weight: 600;
+      text-shadow: none;
+      text-decoration: none;
+      color: $colorWhite;
+      padding: 30px 0 0 5px;
+  }
+}
+.navbar-header{
+  float: none;
+}
+
+.navbar{
+  z-index: 4;
+  background-color: rgba(255, 255, 255, 0.0);
+  background: rgba(255, 255, 255, 0.0);
+  position: fixed;
+  width: 100%;
+  border: none;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+  background-image: none;
+  background-color: transparent;
+  text-decoration: underline;
+  color: $primaryColor;
+  font-weight: 600;
+}
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+  display: block;
+}
+ul.nav li.dropdown ul.dropdown-menu {
+  margin-top: 0;
+}
+.dropdown-menu{
+  background-color: $colorHeaders;
+  opacity: 0.8;
+  border-top: 2px solid #18AE90;
+  text-align: center;
+  li{
+    a{
+      padding: 7px 15px !important;
+      font-size: 13px !important;
+      font-weight: 400;
+      font-family: $fontStyle;
+    }
+    a:hover{
+        background-color: transparent !important;
+        background-image: none !important;
+        color: $primaryColor !important;
+        text-decoration: underline;
+    }
+    a:focus{
+       @extend a:hover
+    }
+  }
+}
+
+.HomeSlider .carousel-inner{
+  z-index: 3;
+}
+.carousel img{
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-position: center center;
+  margin:0;
+}
+.container-fluid{
+  padding:0;
+    .navbar-header{
+      margin-left: 20px;
+      margin-right: 25px;
+    }
+}
+.row{
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+.img-responsive{
+  display: inline-block !important;
+}
+.col-sm-12{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/********************************************HOME*************************************/
+.HomeSlider{
+  .carousel-caption{
+    padding-bottom: 0px !important;
+    padding-top: 0;
+    bottom: 0;
+    text-shadow: none;
+    h3{
+      font-size: $fontSizeSliderTitle;
+      font-family: $fontStyle;
+      font-weight: 600;
+      color: $colorWhite;
+      position: relative;
+      bottom: 70px;
+    }
+    p{
+      font-size: $fontSizeSliderBody;
+      font-family: $fontStyle;
+      font-weight: 400;
+      color: $colorWhite;
+      position: relative;
+      bottom: 66px;
+      margin-bottom: 0;
+    }
+  }
+}
+.HomeSliderUL{
+  max-width: 250px;
+  border: 1px solid $primaryColor;
+  background-color: $primaryColor;
+  color: $primaryColor;
+  position: relative;
+  bottom: 78px;
+}
+.mspartnerlogo{
+  width: 233px !important;
+  height: 87px;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  position: relative;
+  top: 54px;
+}
+.mscertifiedlogo{
+  width: 249px !important;
+  height: 87px;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  position: relative;
+  top: 54px;
+}
+.ReadmoreHome{
+  font-family: $fontStyle;
+  color: $primaryColor;
+  text-decoration: underline;
+}
+.HomeIndustriesTitle{
+  text-align: center;
+  font-family: $fontStyle;
+  font-size: $fonSizeSmallerthanheaders;
+  font-weight: 600;
+  color:$colorHeaders;
+  margin-top: 85px;
+}
+.HrIndustriesWeWorkWith{
+  width: 300px;
+  border: 1px solid $primaryColor;
+  background-color: $primaryColor;
+  color: $primaryColor;
+  margin-top: 0;
+  margin-bottom: 18px;
+}
+.HomeIndustriesBody{
+  text-align: center;
+  font-family: $fontStyle;
+  font-weight: 400;
+}
+.HomeIndustriesGridContainer{
+  padding-top: 45px;
+  padding-bottom: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.HomeIndustriesGrid{
+  width: 280px;
+  height: 480px;
+  box-sizing: border-box;
+  margin: 20px 0px 20px 70px;
+  padding: 0;
+}
+.HomeIndustriesGridImg{
+  display: flex;
+  justify-content: center;
+    img{
+      border-radius: 5px;
+    }
+}
+.HomeIndustriesGridLink a{
+  font-size: $fontSizeGridTitle;
+  font-weight: 600;
+  font-family: $fontStyle;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  color: $primaryColor;
+  padding-top: 15px;
+}
+.HomeIndustriesGridBody{
+  padding: 20px 0;
+    p{
+      font-size: $fontSizeParagraph;
+      font-weight: 400;
+      font-family: $fontStyle;
+      text-align: center;
+    }
+}
+.ReadMoreRetail{
+  position: relative;
+  top: 60px;
+  padding: 10px 20px;
+  background: $primaryColor;
+  color: $colorWhite;
+  border: 1px solid $primaryColor;
+  border-radius: 10px;
+  box-sizing: border-box;
+  width: 100%;
+  margin-left: 30%;
+  margin-right: 20%;
+}
+.ReadMoreTD{
+  @extend .ReadMoreRetail;
+}
+.ReadMoreManufac{
+  @extend .ReadMoreRetail;
+  margin-left: 20%;
+
+}
+.HomeClientsTitleContainer{
+  background-color: $colorLightblack;
+
+}
+.HomeClientsTitle{
+  text-align: center;
+  font-family: $fontStyle;
+  font-size: $fonSizeSmallerthanheaders;
+  font-weight: 600;
+  color:$colorWhite;
+  padding-top: 50px;
+  background-color: $colorLightblack;
+}
+.HrOurClients{
+  width: 100px;
+  border: 1px solid $primaryColor;
+  background-color: $primaryColor;
+  color: $primaryColor;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.HomeClientsGridContainer{
+  padding-top: 40px;
+  padding-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  background-color: $colorLightblack;
+
+}
+.ClientsGridImg img{
+  margin: 50px 0 35px 65px;
+  padding: 0;
+  border-radius: 5px;
+}
+.ClientsFeedbackSideTitleContainer{
+  padding-top: 70px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+    .ClientFeedbackTitle{
+      text-align: center;
+      font-size: $fonSizeSmallerthanheaders;
+      font-weight:600;
+    }
+    .HrClientsFeedback{
+      width: 300px;
+      border: 1px solid $primaryColor;
+      background-color: $primaryColor;
+      color: $primaryColor;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    .ClientFeedbackTitleBody{
+      text-align: center;
+      font-size: $fontSizeParagraph;
+    }
+}
+.ClientsFeedbackSliderContainer{
+  padding-bottom: 70px;
+    .carousel-inner{
+      max-width: 100%;
+      padding: 0 50px 25px 50px;
+      text-align: center;
+    }
+      .carousel-caption{
+         position: static;
+         padding-top: 0;
+          h3{
+            font-size: $fontSizeSliderBody;
+            color: $colorHeaders !important;
+            font-family: $fontStyle;
+            text-shadow: none;
+          }
+          p{
+            font-size: $fonSizeSmallerthanheaders;
+            color: $primaryColor;
+            font-family: $fontStyle;
+            text-shadow: none;
+            margin-bottom: 0 !important;
+
+          }
+      }
+
+    .carousel-indicators{
+      position: relative;
+      top: 150px;
+        li{
+        background-color: #808080;;
+        }
+        .active{
+        background-color: $primaryColor;
+        }
+    }
+}
+.ContactUsNowContainer
+{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  background-color: $primaryColor;
+}
+
+.ContactUsNowGrid{
+  padding: 50px 50px;
+  box-sizing: border-box;
+  display: inline;
+}
+.ContactUsNowImg{
+  display: inline;
+    img{
+      border-radius: 50%;
+    }
+}
+.ContactUsNowBody {
+  display: inline;
+  padding-left: 7px;
+  padding-top: 7px;
+    p{
+      font-size: $fonSizeSmallerthanheaders;
+      color: $colorWhite;
+      font-family: $fontStyle;
+      display: inline;
+
+    }
+}
+.ContactUsNowLink{
+  display: inline;
+  padding-left: 350px;
+  padding-top: 4px;
+    a{
+      display: inline;
+      color: $colorWhite;
+      font-family: $fontStyle;
+      font-size: $fontSizeParagraph;
+      font-weight: 500;
+      border: 2px solid  $colorWhite;
+      border-radius: 5px;
+      padding: 15px 20px;
+      letter-spacing: 2px;
+    }
+}
+
+
+
+
+/*******************************************FOOTER*******************************************/
+.footer{
+  margin-top: 0!important;
+  border-top: none;
+}
+.FooterContainer{
+  background-color: $colorHeaders;
+  color: $colorWhite;
+
+  border-bottom: 25px solid black;
+}
+.FooterGrid{
+  box-sizing: border-box;
+  padding: 25px 0 0 0 !important;
+  text-align: center;
+    p{
+      font-size: $fontSizeNav;
+      font-family: $fontStyle;
+      font-weight: 500;
+    }
+    img{
+      padding-top: 10px;
+    }
+}
+.FooterBody{
+  padding-top: 18px;
+}
+/*************************************CONTACT********************************/
+.ContactSliderHR{
+  width: 90px;
+  color: $primaryColor;
+  border: 1px solid $primaryColor;
+  background-color: $primaryColor;
+  color: $primaryColor;
+  position: relative;
+  bottom: 8px;
+}
+.ContactSliderContainer{
+  .carousel-caption{
+    h3{
+      font-family: $fontStyle;
+      font-weight: 500;
+      font-size: $fontSizeSliderTitle;
+    }
+    p{
+      font-family: $fontStyle;
+      font-weight: 500;
+      font-size: $fontSizeSliderBody;
+    }
+  }
+}
+.ContactGridContainer{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.ContactGrid{
+  width: 280px;
+  height: auto;
+  padding: 10px;
+  margin: 70px 0 40px 60px;
+  text-align: center;
+}
+.ContactGridTitle{
+  font-family: $fontStyle;
+  font-size: $fontSizeGridTitle;
+  font-weight: 600;
+  color: $primaryColor;
+  padding-top: 15px;
+}
+.ContactGridBody{
+  font-family: $fontStyle;
+  font-size: $fontSizeParagraph;
+  font-weight: 500;
+}
+.ContactGridImg img{
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+/********************************ABOUT CLAYHILL*************************/
+
+.AboutClayhillSliderHR{
+  width: 120px;
+  color: $primaryColor;
+  border: 1px solid $primaryColor;
+  background-color: $primaryColor;
+  color: $primaryColor;
+  position: relative;
+  bottom: 9px;
+}
+.AboutClayhillSliderContainer{
+  .carousel-caption{
+    h3{
+      font-family: $fontStyle;
+      font-weight: 500;
+      font-size: $fontSizeSliderTitle;
+      }
+    p{
+      font-family: $fontStyle;
+      font-weight: 500;
+      font-size: $fontSizeSliderBody;
+      }
+  }
+}
+.AboutClayhillBodyContainer{
+  width: 100%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+
+}
+.AboutClayhillMainContent{
+  padding: 90px 170px 50px 170px ;
+}
+.AboutClayhillBodyHR{
+  width: 320px;
+  color: $primaryColor;
+  border: 1px solid $primaryColor;
+  background-color: $primaryColor;
+  color: $primaryColor;
+  position: relative;
+  bottom: 8px;
+  right: 508px;
+}
+.AboutClayhillBody{
+
+    h2{
+      font-family: $fontStyle;
+      font-size: $fontSizeGridTitle;
+      font-weight: 600;
+      color: $primaryColor;
+    }
+    p{
+      font-family: $fontStyle;
+      font-size: $fontSizeParagraph;
+      font-weight: 500;
+
+    }
+}
+/***************************INDUSTRIES***********************/
+.IndustriesSliderHR{
+  width: 100px;
+  color: $primaryColor;
+  border: 1px solid $primaryColor;
+  background-color: $primaryColor;
+  color: $primaryColor;
+  position: relative;
+  bottom: 12px;
+}
+.IndustriesSliderContainer{
+  .carousel-caption{
+    h3{
+      font-family: $fontStyle;
+      font-weight: 500;
+      font-size: $fontSizeSliderTitle;
+    }
+    p{
+      font-family: $fontStyle;
+      font-weight: 500;
+      font-size: $fontSizeSliderBody;
+    }
+  }
+}
+.IndustriesMainContentContainer{
+  width: 100%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.IndustriesMainContent{
+  padding: 90px 170px 50px 170px ;
+}
+.IndustriesMainContentHR{
+  width: 280px;
+  color: $primaryColor;
+  border: 1px solid $primaryColor;
+  background-color: $primaryColor;
+  color: $primaryColor;
+  float: left;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+
+}
+.IndustriesMainContentTitle{
+  color: $primaryColor;
+  font-family: $fontStyle;
+  font-weight: 600;
+  font-size: $fontSizeGridTitle;
+}
+.IndustriesMainContentBody{
+  font-family: $fontStyle;
+  font-weight: 500;
+  font-size: $fontSizeParagraph;
+  display: block;
+}
+/***********************MANUFACTURING***********************/
+.ManufacSliderContainer{
+  .carousel-caption{
+    h3{
+      font-family: $fontStyle;
+      font-weight: 500;
+      font-size: $fontSizeSliderTitle;
+    }
+    p{
+      font-family: $fontStyle;
+      font-weight: 500;
+      font-size: $fontSizeSliderBody;
+    }
+  }
+}
+.ManufacSliderHR{
+  width: 160px;
+  border: 1px solid $primaryColor;
+  background-color: $primaryColor;
+  color: $primaryColor;
+  position: relative;
+  bottom:14px;
+}
+.ManufacMainContentContainer{
+  width: 100%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+
+}
+.ManufacMainContent{
+  padding: 90px 170px 50px 170px ;
+}
+.ManufacMainContentTitle{
+  font-family: $fontStyle;
+  font-weight: 600;
+  font-size: $fontSizeGridTitle;
+  color: $primaryColor;
+}
+.ManufacMainHR{
+  width: 300px;
+  border: 1px solid $primaryColor;
+  background-color: $primaryColor;
+  color: $primaryColor;
+  float: left;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+.ManufacMainContentBody{
+  font-family: $fontStyle;
+  font-weight: 500;
+  font-size: $fontSizeParagraph;
+}
+/***********************************RETAIL************************/
+.RetailSliderContainer{
+  .carousel-caption{
+    h3{
+      font-family: $fontStyle;
+      font-weight: 500;
+      font-size: $fontSizeSliderTitle;
+    }
+    p{
+      font-family: $fontStyle;
+      font-weight: 500;
+      font-size: $fontSizeSliderBody;
+    }
+  }
+}
+.RetailSliderHR{
+  width: 70px;
+  border: 1px solid $primaryColor;
+  background-color: $primaryColor;
+  color: $primaryColor;
+  position: relative;
+  bottom:13px;
+}
+.RetailMainContentContainer{
+  width: 100%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+
+}
+.RetailMainContent{
+  padding: 90px 170px 50px 170px ;
+}
+.RetailMainContentTitle{
+  font-family: $fontStyle;
+  font-weight: 600;
+  font-size:$fontSizeGridTitle;
+  color: $primaryColor;
+  float: none;
+}
+.RetailMainContentHR{
+  width: 335px;
+  border: 1px solid $primaryColor;
+  background-color: $primaryColor;
+  color: $primaryColor;
+  float: left;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  
+}
+.RetailMainContentBody{
+  font-family: $fontStyle;
+  font-weight: 500;
+  font-size:$fontSizeParagraph;
+}
+/***********************Trade and Distribution***********************/
+.TandDSlidercontainer{
+  .carousel-caption{
+    h3{
+      font-family: $fontStyle;
+      font-weight: 500;
+      font-size: $fontSizeSliderTitle;
+    }
+    p{
+      font-family: $fontStyle;
+      font-weight: 500;
+      font-size: $fontSizeSliderBody;
+    }
+  }
+}
+.TandDSliderHR{
+  width: 255px;
+  border: 1px solid $primaryColor;
+  background-color: $primaryColor;
+  color: $primaryColor;
+  position: relative;
+  bottom: 13px;
+}
+.TandDMainContentContainer{
+  width: 100%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+
+}
+.TandDMainContent{
+  padding: 90px 170px 50px 170px ;
+}
+.TandDMainContentTitle{
+  font-family: $fontStyle;
+  font-weight: 600;
+  font-size: $fontSizeGridTitle;
+  color: $primaryColor;
+}
+.TandDMainContentBody{
+  font-family: $fontStyle;
+  font-weight: 500;
+  font-size: $fontSizeParagraph;
+}
+
+.TandDMainHR{
+  width: 340px;
+  border: 1px solid $primaryColor;
+  background-color: $primaryColor;
+  color: $primaryColor;
+  float: left;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  
+}
+
+/**************************OFFERINGS***************************/
+.OfferingsContainer{
+  .carousel-caption{
+    h3{
+      font-family: $fontStyle;
+      font-weight: 500;
+      font-size: $fontSizeSliderTitle;
+    }
+    p{
+      font-family: $fontStyle;
+      font-weight: 500;
+      font-size: $fontSizeSliderBody;
+    }
+  }
+}
+.OfferingsMainContainer{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.OfferingsMainContent{
+  padding: 90px 170px 50px 170px;
+}
+.OfferingsMainConTitle{
+  font-family: $fontStyle;
+  font-weight: 600;
+  font-size: $fontSizeGridTitle;
+  color: $primaryColor;
+}
+.OfferingsMainConBody{
+  font-family: $fontStyle;
+  font-weight: 500;
+  font-size: $fontSizeParagraph;
+}
+.OfferingsSliderHR{
+  width: 150px;
+  border: 1px solid $primaryColor;
+  background-color: $primaryColor;
+  color: $primaryColor;
+  position: relative;
+  bottom: 13px;
+}
+.OfferingsMainConHR{
+  width: 240px;
+  border: 1px solid $primaryColor;
+  background-color: $primaryColor;
+  color: $primaryColor;
+  position: relative;
+  bottom: 15px;
+  right: 549px;
+}
+
+/********************************OUR CLIENTS*******************************/
+.OurClientsSliderContainer{
+  .carousel-caption{
+    h3{
+      font-family: $fontStyle;
+      font-weight: 500;
+      font-size: $fontSizeSliderTitle;
+    }
+    p{
+      font-family: $fontStyle;
+      font-weight: 500;
+      font-size: $fontSizeSliderBody;
+    }
+  }
+}
+.OurClientsSliderHR{
+  width: 150px;
+  border: 1px solid $primaryColor;
+  background-color: $primaryColor;
+  color: $primaryColor;
+  position: relative;
+  bottom: 13px;
+}
+.OurClientsListContainer{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  padding: 80px 160px 20px 160px;
+}
+.OurClientsList{
+  width: 350px;
+  height: 480px;
+  margin: 70px 35px 70px 35px;
+  background: #e8f8f5;
+  border: 1px solid #17a98c;
+}
+.OurClientsListTitle{
+  font-family: $fontStyle;
+  font-weight: 600;
+  font-size: $fontSizeNav;
+  color: $primaryColor;
+  padding: 15px;
+}
+.OurClientsListBody{
+  font-family: $fontStyle;
+  font-weight: 500;
+  font-size: $fontSizeParagraph;
+  padding: 15px;
+}
+.OurClientsListImg{
+  text-align: center;
+}
+
+/********************GLOBAL DELIVERY****************************/
+.GlobalDeliverySliderContainer{
+  .carousel-caption{
+    h3{
+      font-family: $fontStyle;
+      font-weight: 500;
+      font-size: $fontSizeSliderTitle;
+    }
+    p{
+      font-family: $fontStyle;
+      font-weight: 500;
+      font-size: $fontSizeSliderBody;
+    }
+  }
+}
+.GlobalDeliverySliderHR{
+  width: 180px;
+  border: 1px solid $primaryColor;
+  background-color: $primaryColor;
+  color: $primaryColor;
+  position: relative;
+  bottom: 17px;
+}
+.GlobalDeliveryMainContainer {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.GlobalDeliveryMainContent{
+  padding: 100px 170px 40px 170px;
+}
+.GlobalDeliveryMainCTitle{
+  font-family: $fontStyle;
+  font-weight: 600;
+  font-size: $fontSizeGridTitle;
+  color: $primaryColor;
+}
+.GlobalDeliveryMainCBody{
+  font-family: $fontStyle;
+  font-weight: 500;
+  font-size: $fontSizeParagraph;
+}
+.GlobalDeliveryMainHR{
+  width: 270px;
+  border: 1px solid $primaryColor;
+  background-color: $primaryColor;
+  color: $primaryColor;
+  position: relative;
+  bottom: 13px;
+  right: 535px;
+}
+/*******************************METHODOLOGY********************************/
+.MethodologySliderContainer{
+  .carousel-caption{
+    h3{
+      font-family: $fontStyle;
+      font-weight: 500;
+      font-size: $fontSizeSliderTitle;
+    }
+    p{
+      font-family: $fontStyle;
+      font-weight: 500;
+      font-size: $fontSizeSliderBody;
+    }
+  }
+}
+.MethodologyMainContentContainer{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.MethodologyMainContent{
+  padding: 100px 170px 40px 170px;
+}
+.MethodologyMainConTitle{
+  font-family: $fontStyle;
+  font-weight: 600;
+  font-size: $fontSizeGridTitle;
+  color: $primaryColor;
+}
+.MethodologyMainConBody{
+  font-family: $fontStyle;
+  font-weight: 500;
+  font-size: $fontSizeParagraph;
+}
+.MethodologySliderHR{
+  width: 180px;
+  border: 1px solid $primaryColor;
+  background-color: $primaryColor;
+  color: $primaryColor;
+  position: relative;
+  bottom: 17px;
+}
+.MethodologyMainConHR{
+  width: 157px;
+  border: 1px solid $primaryColor;
+  background-color: $primaryColor;
+  color: $primaryColor;
+  position: relative;
+  bottom: 13px;
+  right: 590px;
+}
+
+

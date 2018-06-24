@@ -1,0 +1,1160 @@
+/* line 16, ../sass/style.scss */
+body {
+  background: #fdfdfd;
+  margin-top: 0 !important;
+  z-index: 1;
+}
+
+/* line 21, ../sass/style.scss */
+.navbar-nav {
+  display: inline;
+}
+
+/* line 24, ../sass/style.scss */
+.navbar-default {
+  box-shadow: none;
+  border-radius: none;
+}
+/* line 27, ../sass/style.scss */
+.navbar-default .navbar-nav li a {
+  color: #ffffff;
+  font-family: Raleway, sans-serif;
+  font-size: 15px;
+  font-weight: 600 !important;
+  letter-spacing: 1px;
+  text-shadow: none;
+  padding-top: 32px;
+}
+/* line 36, ../sass/style.scss */
+.navbar-default .navbar-brand {
+  font-family: Raleway, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-shadow: none;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 30px 0 0 5px;
+}
+
+/* line 46, ../sass/style.scss */
+.navbar-header {
+  float: none;
+}
+
+/* line 50, ../sass/style.scss */
+.navbar {
+  z-index: 4;
+  background-color: rgba(255, 255, 255, 0);
+  background: rgba(255, 255, 255, 0);
+  position: fixed;
+  width: 100%;
+  border: none;
+}
+
+/* line 58, ../sass/style.scss */
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .dropdown-menu li .navbar-nav > .active > a:focus, .dropdown-menu li .navbar-default .navbar-nav > .active > a:focus {
+  background-image: none;
+  background-color: transparent;
+  text-decoration: underline;
+  color: #1abc9c;
+  font-weight: 600;
+}
+
+/* line 65, ../sass/style.scss */
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+  display: block;
+}
+
+/* line 68, ../sass/style.scss */
+ul.nav li.dropdown ul.dropdown-menu {
+  margin-top: 0;
+}
+
+/* line 71, ../sass/style.scss */
+.dropdown-menu {
+  background-color: #444444;
+  opacity: 0.8;
+  border-top: 2px solid #18AE90;
+  text-align: center;
+}
+/* line 77, ../sass/style.scss */
+.dropdown-menu li a {
+  padding: 7px 15px !important;
+  font-size: 13px !important;
+  font-weight: 400;
+  font-family: Raleway, sans-serif;
+}
+/* line 83, ../sass/style.scss */
+.dropdown-menu li a:hover, .dropdown-menu li a:focus {
+  background-color: transparent !important;
+  background-image: none !important;
+  color: #1abc9c !important;
+  text-decoration: underline;
+}
+
+/* line 95, ../sass/style.scss */
+.HomeSlider .carousel-inner {
+  z-index: 3;
+}
+
+/* line 98, ../sass/style.scss */
+.carousel img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-position: center center;
+  margin: 0;
+}
+
+/* line 105, ../sass/style.scss */
+.container-fluid {
+  padding: 0;
+}
+/* line 107, ../sass/style.scss */
+.container-fluid .navbar-header {
+  margin-left: 20px;
+  margin-right: 25px;
+}
+
+/* line 112, ../sass/style.scss */
+.row {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
+/* line 116, ../sass/style.scss */
+.img-responsive {
+  display: inline-block !important;
+}
+
+/* line 119, ../sass/style.scss */
+.col-sm-12 {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/********************************************HOME*************************************/
+/* line 126, ../sass/style.scss */
+.HomeSlider .carousel-caption {
+  padding-bottom: 0px !important;
+  padding-top: 0;
+  bottom: 0;
+  text-shadow: none;
+}
+/* line 131, ../sass/style.scss */
+.HomeSlider .carousel-caption h3 {
+  font-size: 32px;
+  font-family: Raleway, sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  position: relative;
+  bottom: 70px;
+}
+/* line 139, ../sass/style.scss */
+.HomeSlider .carousel-caption p {
+  font-size: 18px;
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  position: relative;
+  bottom: 66px;
+  margin-bottom: 0;
+}
+
+/* line 150, ../sass/style.scss */
+.HomeSliderUL {
+  max-width: 250px;
+  border: 1px solid #1abc9c;
+  background-color: #1abc9c;
+  color: #1abc9c;
+  position: relative;
+  bottom: 78px;
+}
+
+/* line 158, ../sass/style.scss */
+.mspartnerlogo {
+  width: 233px !important;
+  height: 87px;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  position: relative;
+  top: 54px;
+}
+
+/* line 166, ../sass/style.scss */
+.mscertifiedlogo {
+  width: 249px !important;
+  height: 87px;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  position: relative;
+  top: 54px;
+}
+
+/* line 174, ../sass/style.scss */
+.ReadmoreHome {
+  font-family: Raleway, sans-serif;
+  color: #1abc9c;
+  text-decoration: underline;
+}
+
+/* line 179, ../sass/style.scss */
+.HomeIndustriesTitle {
+  text-align: center;
+  font-family: Raleway, sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  color: #444444;
+  margin-top: 85px;
+}
+
+/* line 187, ../sass/style.scss */
+.HrIndustriesWeWorkWith {
+  width: 300px;
+  border: 1px solid #1abc9c;
+  background-color: #1abc9c;
+  color: #1abc9c;
+  margin-top: 0;
+  margin-bottom: 18px;
+}
+
+/* line 195, ../sass/style.scss */
+.HomeIndustriesBody {
+  text-align: center;
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+}
+
+/* line 200, ../sass/style.scss */
+.HomeIndustriesGridContainer {
+  padding-top: 45px;
+  padding-bottom: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+/* line 211, ../sass/style.scss */
+.HomeIndustriesGrid {
+  width: 280px;
+  height: 480px;
+  box-sizing: border-box;
+  margin: 20px 0px 20px 70px;
+  padding: 0;
+}
+
+/* line 218, ../sass/style.scss */
+.HomeIndustriesGridImg {
+  display: flex;
+  justify-content: center;
+}
+/* line 221, ../sass/style.scss */
+.HomeIndustriesGridImg img {
+  border-radius: 5px;
+}
+
+/* line 225, ../sass/style.scss */
+.HomeIndustriesGridLink a {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Raleway, sans-serif;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  color: #1abc9c;
+  padding-top: 15px;
+}
+
+/* line 236, ../sass/style.scss */
+.HomeIndustriesGridBody {
+  padding: 20px 0;
+}
+/* line 238, ../sass/style.scss */
+.HomeIndustriesGridBody p {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: Raleway, sans-serif;
+  text-align: center;
+}
+
+/* line 245, ../sass/style.scss */
+.ReadMoreRetail, .ReadMoreTD, .ReadMoreManufac {
+  position: relative;
+  top: 60px;
+  padding: 10px 20px;
+  background: #1abc9c;
+  color: #ffffff;
+  border: 1px solid #1abc9c;
+  border-radius: 10px;
+  box-sizing: border-box;
+  width: 100%;
+  margin-left: 30%;
+  margin-right: 20%;
+}
+
+/* line 261, ../sass/style.scss */
+.ReadMoreManufac {
+  margin-left: 20%;
+}
+
+/* line 266, ../sass/style.scss */
+.HomeClientsTitleContainer {
+  background-color: #262626;
+}
+
+/* line 270, ../sass/style.scss */
+.HomeClientsTitle {
+  text-align: center;
+  font-family: Raleway, sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  color: #ffffff;
+  padding-top: 50px;
+  background-color: #262626;
+}
+
+/* line 279, ../sass/style.scss */
+.HrOurClients {
+  width: 100px;
+  border: 1px solid #1abc9c;
+  background-color: #1abc9c;
+  color: #1abc9c;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* line 287, ../sass/style.scss */
+.HomeClientsGridContainer {
+  padding-top: 40px;
+  padding-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  background-color: #262626;
+}
+
+/* line 300, ../sass/style.scss */
+.ClientsGridImg img {
+  margin: 50px 0 35px 65px;
+  padding: 0;
+  border-radius: 5px;
+}
+
+/* line 305, ../sass/style.scss */
+.ClientsFeedbackSideTitleContainer {
+  padding-top: 70px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+/* line 311, ../sass/style.scss */
+.ClientsFeedbackSideTitleContainer .ClientFeedbackTitle {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+/* line 316, ../sass/style.scss */
+.ClientsFeedbackSideTitleContainer .HrClientsFeedback {
+  width: 300px;
+  border: 1px solid #1abc9c;
+  background-color: #1abc9c;
+  color: #1abc9c;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* line 324, ../sass/style.scss */
+.ClientsFeedbackSideTitleContainer .ClientFeedbackTitleBody {
+  text-align: center;
+  font-size: 15px;
+}
+
+/* line 329, ../sass/style.scss */
+.ClientsFeedbackSliderContainer {
+  padding-bottom: 70px;
+}
+/* line 331, ../sass/style.scss */
+.ClientsFeedbackSliderContainer .carousel-inner {
+  max-width: 100%;
+  padding: 0 50px 25px 50px;
+  text-align: center;
+}
+/* line 336, ../sass/style.scss */
+.ClientsFeedbackSliderContainer .carousel-caption {
+  position: static;
+  padding-top: 0;
+}
+/* line 339, ../sass/style.scss */
+.ClientsFeedbackSliderContainer .carousel-caption h3 {
+  font-size: 18px;
+  color: #444444 !important;
+  font-family: Raleway, sans-serif;
+  text-shadow: none;
+}
+/* line 345, ../sass/style.scss */
+.ClientsFeedbackSliderContainer .carousel-caption p {
+  font-size: 25px;
+  color: #1abc9c;
+  font-family: Raleway, sans-serif;
+  text-shadow: none;
+  margin-bottom: 0 !important;
+}
+/* line 355, ../sass/style.scss */
+.ClientsFeedbackSliderContainer .carousel-indicators {
+  position: relative;
+  top: 150px;
+}
+/* line 358, ../sass/style.scss */
+.ClientsFeedbackSliderContainer .carousel-indicators li {
+  background-color: #808080;
+}
+/* line 361, ../sass/style.scss */
+.ClientsFeedbackSliderContainer .carousel-indicators .active {
+  background-color: #1abc9c;
+}
+
+/* line 366, ../sass/style.scss */
+.ContactUsNowContainer {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  background-color: #1abc9c;
+}
+
+/* line 375, ../sass/style.scss */
+.ContactUsNowGrid {
+  padding: 50px 50px;
+  box-sizing: border-box;
+  display: inline;
+}
+
+/* line 380, ../sass/style.scss */
+.ContactUsNowImg {
+  display: inline;
+}
+/* line 382, ../sass/style.scss */
+.ContactUsNowImg img {
+  border-radius: 50%;
+}
+
+/* line 386, ../sass/style.scss */
+.ContactUsNowBody {
+  display: inline;
+  padding-left: 7px;
+  padding-top: 7px;
+}
+/* line 390, ../sass/style.scss */
+.ContactUsNowBody p {
+  font-size: 25px;
+  color: #ffffff;
+  font-family: Raleway, sans-serif;
+  display: inline;
+}
+
+/* line 398, ../sass/style.scss */
+.ContactUsNowLink {
+  display: inline;
+  padding-left: 350px;
+  padding-top: 4px;
+}
+/* line 402, ../sass/style.scss */
+.ContactUsNowLink a {
+  display: inline;
+  color: #ffffff;
+  font-family: Raleway, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  padding: 15px 20px;
+  letter-spacing: 2px;
+}
+
+/*******************************************FOOTER*******************************************/
+/* line 419, ../sass/style.scss */
+.footer {
+  margin-top: 0 !important;
+  border-top: none;
+}
+
+/* line 423, ../sass/style.scss */
+.FooterContainer {
+  background-color: #444444;
+  color: #ffffff;
+  border-bottom: 25px solid black;
+}
+
+/* line 429, ../sass/style.scss */
+.FooterGrid {
+  box-sizing: border-box;
+  padding: 25px 0 0 0 !important;
+  text-align: center;
+}
+/* line 433, ../sass/style.scss */
+.FooterGrid p {
+  font-size: 15px;
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
+}
+/* line 438, ../sass/style.scss */
+.FooterGrid img {
+  padding-top: 10px;
+}
+
+/* line 442, ../sass/style.scss */
+.FooterBody {
+  padding-top: 18px;
+}
+
+/*************************************CONTACT********************************/
+/* line 446, ../sass/style.scss */
+.ContactSliderHR {
+  width: 90px;
+  color: #1abc9c;
+  border: 1px solid #1abc9c;
+  background-color: #1abc9c;
+  color: #1abc9c;
+  position: relative;
+  bottom: 8px;
+}
+
+/* line 457, ../sass/style.scss */
+.ContactSliderContainer .carousel-caption h3 {
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+}
+/* line 462, ../sass/style.scss */
+.ContactSliderContainer .carousel-caption p {
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+/* line 469, ../sass/style.scss */
+.ContactGridContainer {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+/* line 475, ../sass/style.scss */
+.ContactGrid {
+  width: 280px;
+  height: auto;
+  padding: 10px;
+  margin: 70px 0 40px 60px;
+  text-align: center;
+}
+
+/* line 482, ../sass/style.scss */
+.ContactGridTitle {
+  font-family: Raleway, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #1abc9c;
+  padding-top: 15px;
+}
+
+/* line 489, ../sass/style.scss */
+.ContactGridBody {
+  font-family: Raleway, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* line 494, ../sass/style.scss */
+.ContactGridImg img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+
+/********************************ABOUT CLAYHILL*************************/
+/* line 501, ../sass/style.scss */
+.AboutClayhillSliderHR {
+  width: 120px;
+  color: #1abc9c;
+  border: 1px solid #1abc9c;
+  background-color: #1abc9c;
+  color: #1abc9c;
+  position: relative;
+  bottom: 9px;
+}
+
+/* line 512, ../sass/style.scss */
+.AboutClayhillSliderContainer .carousel-caption h3 {
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+}
+/* line 517, ../sass/style.scss */
+.AboutClayhillSliderContainer .carousel-caption p {
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+/* line 524, ../sass/style.scss */
+.AboutClayhillBodyContainer {
+  width: 100%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+/* line 532, ../sass/style.scss */
+.AboutClayhillMainContent {
+  padding: 90px 170px 50px 170px;
+}
+
+/* line 535, ../sass/style.scss */
+.AboutClayhillBodyHR {
+  width: 320px;
+  color: #1abc9c;
+  border: 1px solid #1abc9c;
+  background-color: #1abc9c;
+  color: #1abc9c;
+  position: relative;
+  bottom: 8px;
+  right: 508px;
+}
+
+/* line 547, ../sass/style.scss */
+.AboutClayhillBody h2 {
+  font-family: Raleway, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #1abc9c;
+}
+/* line 553, ../sass/style.scss */
+.AboutClayhillBody p {
+  font-family: Raleway, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/***************************INDUSTRIES***********************/
+/* line 561, ../sass/style.scss */
+.IndustriesSliderHR {
+  width: 100px;
+  color: #1abc9c;
+  border: 1px solid #1abc9c;
+  background-color: #1abc9c;
+  color: #1abc9c;
+  position: relative;
+  bottom: 12px;
+}
+
+/* line 572, ../sass/style.scss */
+.IndustriesSliderContainer .carousel-caption h3 {
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+}
+/* line 577, ../sass/style.scss */
+.IndustriesSliderContainer .carousel-caption p {
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+/* line 584, ../sass/style.scss */
+.IndustriesMainContentContainer {
+  width: 100%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+/* line 591, ../sass/style.scss */
+.IndustriesMainContent {
+  padding: 90px 170px 50px 170px;
+}
+
+/* line 594, ../sass/style.scss */
+.IndustriesMainContentHR {
+  width: 280px;
+  color: #1abc9c;
+  border: 1px solid #1abc9c;
+  background-color: #1abc9c;
+  color: #1abc9c;
+  float: left;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+/* line 605, ../sass/style.scss */
+.IndustriesMainContentTitle {
+  color: #1abc9c;
+  font-family: Raleway, sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+/* line 611, ../sass/style.scss */
+.IndustriesMainContentBody {
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  display: block;
+}
+
+/***********************MANUFACTURING***********************/
+/* line 620, ../sass/style.scss */
+.ManufacSliderContainer .carousel-caption h3 {
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+}
+/* line 625, ../sass/style.scss */
+.ManufacSliderContainer .carousel-caption p {
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+/* line 632, ../sass/style.scss */
+.ManufacSliderHR {
+  width: 160px;
+  border: 1px solid #1abc9c;
+  background-color: #1abc9c;
+  color: #1abc9c;
+  position: relative;
+  bottom: 14px;
+}
+
+/* line 640, ../sass/style.scss */
+.ManufacMainContentContainer {
+  width: 100%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+/* line 648, ../sass/style.scss */
+.ManufacMainContent {
+  padding: 90px 170px 50px 170px;
+}
+
+/* line 651, ../sass/style.scss */
+.ManufacMainContentTitle {
+  font-family: Raleway, sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #1abc9c;
+}
+
+/* line 657, ../sass/style.scss */
+.ManufacMainHR {
+  width: 300px;
+  border: 1px solid #1abc9c;
+  background-color: #1abc9c;
+  color: #1abc9c;
+  float: left;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+/* line 666, ../sass/style.scss */
+.ManufacMainContentBody {
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+/***********************************RETAIL************************/
+/* line 674, ../sass/style.scss */
+.RetailSliderContainer .carousel-caption h3 {
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+}
+/* line 679, ../sass/style.scss */
+.RetailSliderContainer .carousel-caption p {
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+/* line 686, ../sass/style.scss */
+.RetailSliderHR {
+  width: 70px;
+  border: 1px solid #1abc9c;
+  background-color: #1abc9c;
+  color: #1abc9c;
+  position: relative;
+  bottom: 13px;
+}
+
+/* line 694, ../sass/style.scss */
+.RetailMainContentContainer {
+  width: 100%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+/* line 702, ../sass/style.scss */
+.RetailMainContent {
+  padding: 90px 170px 50px 170px;
+}
+
+/* line 705, ../sass/style.scss */
+.RetailMainContentTitle {
+  font-family: Raleway, sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #1abc9c;
+  float: none;
+}
+
+/* line 712, ../sass/style.scss */
+.RetailMainContentHR {
+  width: 335px;
+  border: 1px solid #1abc9c;
+  background-color: #1abc9c;
+  color: #1abc9c;
+  float: left;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+/* line 722, ../sass/style.scss */
+.RetailMainContentBody {
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+/***********************Trade and Distribution***********************/
+/* line 730, ../sass/style.scss */
+.TandDSlidercontainer .carousel-caption h3 {
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+}
+/* line 735, ../sass/style.scss */
+.TandDSlidercontainer .carousel-caption p {
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+/* line 742, ../sass/style.scss */
+.TandDSliderHR {
+  width: 255px;
+  border: 1px solid #1abc9c;
+  background-color: #1abc9c;
+  color: #1abc9c;
+  position: relative;
+  bottom: 13px;
+}
+
+/* line 750, ../sass/style.scss */
+.TandDMainContentContainer {
+  width: 100%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+/* line 758, ../sass/style.scss */
+.TandDMainContent {
+  padding: 90px 170px 50px 170px;
+}
+
+/* line 761, ../sass/style.scss */
+.TandDMainContentTitle {
+  font-family: Raleway, sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #1abc9c;
+}
+
+/* line 767, ../sass/style.scss */
+.TandDMainContentBody {
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+/* line 773, ../sass/style.scss */
+.TandDMainHR {
+  width: 340px;
+  border: 1px solid #1abc9c;
+  background-color: #1abc9c;
+  color: #1abc9c;
+  float: left;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+/**************************OFFERINGS***************************/
+/* line 787, ../sass/style.scss */
+.OfferingsContainer .carousel-caption h3 {
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+}
+/* line 792, ../sass/style.scss */
+.OfferingsContainer .carousel-caption p {
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+/* line 799, ../sass/style.scss */
+.OfferingsMainContainer {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+/* line 805, ../sass/style.scss */
+.OfferingsMainContent {
+  padding: 90px 170px 50px 170px;
+}
+
+/* line 808, ../sass/style.scss */
+.OfferingsMainConTitle {
+  font-family: Raleway, sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #1abc9c;
+}
+
+/* line 814, ../sass/style.scss */
+.OfferingsMainConBody {
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+/* line 819, ../sass/style.scss */
+.OfferingsSliderHR {
+  width: 150px;
+  border: 1px solid #1abc9c;
+  background-color: #1abc9c;
+  color: #1abc9c;
+  position: relative;
+  bottom: 13px;
+}
+
+/* line 827, ../sass/style.scss */
+.OfferingsMainConHR {
+  width: 240px;
+  border: 1px solid #1abc9c;
+  background-color: #1abc9c;
+  color: #1abc9c;
+  position: relative;
+  bottom: 15px;
+  right: 549px;
+}
+
+/********************************OUR CLIENTS*******************************/
+/* line 840, ../sass/style.scss */
+.OurClientsSliderContainer .carousel-caption h3 {
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+}
+/* line 845, ../sass/style.scss */
+.OurClientsSliderContainer .carousel-caption p {
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+/* line 852, ../sass/style.scss */
+.OurClientsSliderHR {
+  width: 150px;
+  border: 1px solid #1abc9c;
+  background-color: #1abc9c;
+  color: #1abc9c;
+  position: relative;
+  bottom: 13px;
+}
+
+/* line 860, ../sass/style.scss */
+.OurClientsListContainer {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  padding: 80px 160px 20px 160px;
+}
+
+/* line 867, ../sass/style.scss */
+.OurClientsList {
+  width: 350px;
+  height: 480px;
+  margin: 70px 35px 70px 35px;
+  background: #e8f8f5;
+  border: 1px solid #17a98c;
+}
+
+/* line 874, ../sass/style.scss */
+.OurClientsListTitle {
+  font-family: Raleway, sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  color: #1abc9c;
+  padding: 15px;
+}
+
+/* line 881, ../sass/style.scss */
+.OurClientsListBody {
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 15px;
+}
+
+/* line 887, ../sass/style.scss */
+.OurClientsListImg {
+  text-align: center;
+}
+
+/********************GLOBAL DELIVERY****************************/
+/* line 894, ../sass/style.scss */
+.GlobalDeliverySliderContainer .carousel-caption h3 {
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+}
+/* line 899, ../sass/style.scss */
+.GlobalDeliverySliderContainer .carousel-caption p {
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+/* line 906, ../sass/style.scss */
+.GlobalDeliverySliderHR {
+  width: 180px;
+  border: 1px solid #1abc9c;
+  background-color: #1abc9c;
+  color: #1abc9c;
+  position: relative;
+  bottom: 17px;
+}
+
+/* line 914, ../sass/style.scss */
+.GlobalDeliveryMainContainer {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+/* line 920, ../sass/style.scss */
+.GlobalDeliveryMainContent {
+  padding: 100px 170px 40px 170px;
+}
+
+/* line 923, ../sass/style.scss */
+.GlobalDeliveryMainCTitle {
+  font-family: Raleway, sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #1abc9c;
+}
+
+/* line 929, ../sass/style.scss */
+.GlobalDeliveryMainCBody {
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+/* line 934, ../sass/style.scss */
+.GlobalDeliveryMainHR {
+  width: 270px;
+  border: 1px solid #1abc9c;
+  background-color: #1abc9c;
+  color: #1abc9c;
+  position: relative;
+  bottom: 13px;
+  right: 535px;
+}
+
+/*******************************METHODOLOGY********************************/
+/* line 946, ../sass/style.scss */
+.MethodologySliderContainer .carousel-caption h3 {
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+}
+/* line 951, ../sass/style.scss */
+.MethodologySliderContainer .carousel-caption p {
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+/* line 958, ../sass/style.scss */
+.MethodologyMainContentContainer {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+/* line 964, ../sass/style.scss */
+.MethodologyMainContent {
+  padding: 100px 170px 40px 170px;
+}
+
+/* line 967, ../sass/style.scss */
+.MethodologyMainConTitle {
+  font-family: Raleway, sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #1abc9c;
+}
+
+/* line 973, ../sass/style.scss */
+.MethodologyMainConBody {
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+/* line 978, ../sass/style.scss */
+.MethodologySliderHR {
+  width: 180px;
+  border: 1px solid #1abc9c;
+  background-color: #1abc9c;
+  color: #1abc9c;
+  position: relative;
+  bottom: 17px;
+}
+
+/* line 986, ../sass/style.scss */
+.MethodologyMainConHR {
+  width: 157px;
+  border: 1px solid #1abc9c;
+  background-color: #1abc9c;
+  color: #1abc9c;
+  position: relative;
+  bottom: 13px;
+  right: 590px;
+}
